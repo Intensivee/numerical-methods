@@ -1,5 +1,6 @@
 # numerical-methods
 
+W założeniu programy miały mieć po 1 plik .cpp, oraz jeżeli to możliwe nie pobierać danych z plików.
 
 Spis treści:
 
