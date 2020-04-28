@@ -1,0 +1,21 @@
+set xrange [-5.2 : -1.5]
+set yrange [-14 : -4 ]
+set title 'Wykresy bledow'
+set ylabel 'log10(|blad|)'
+set xlabel 'log10(h)'
+set grid
+plot \
+ "log10_blad_dyskretyzacja_konwencjonalna.txt" using 1:2 with lines title "Konwencjonalna",\
+ "log10_blad_dyskretyzacja_Numerowa.txt" using 1:2 with lines title "Numerowa";
+
+
+set xrange [-0.05 : 1.05]
+set yrange [-0.05: 1.05]
+set title 'Wykresy'
+set ylabel 'y'
+set xlabel 'x'
+set grid
+plot \
+ "dyskretyzacja_konwencjonalna.txt" using 1:3 with lines title "Analitycznie",\
+ "dyskretyzacja_konwencjonalna.txt" using 1:2 with points ps 1 lc rgb "black" title "Konwencjonalna",\
+ "dyskretyzacja_Numerowa.txt" using 1:2 with points ps 1 lc rgb "red" title "Numerowa";
