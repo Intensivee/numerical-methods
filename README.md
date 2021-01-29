@@ -20,4 +20,12 @@ Lab7 - Rozwiązywanie układu równań liniowych metodami iteracyjnymi: Jacobieg
 
 Lab8 - Przybliżenia różnicowe dwupunktowe i trzypunktowe  (jednostronne i centralne)
 
-Lab9 - równanie różniczkowe zwyczajne drugiego rzędu na sieci jednorodnej za pomocą: trzypunktowej dyskretyzacji konwencjonalnej oraz dyskretyzacji Numerowa 
+Lab9 - Równanie różniczkowe zwyczajne drugiego rzędu na sieci jednorodnej za pomocą: trzypunktowej dyskretyzacji konwencjonalnej oraz dyskretyzacji Numerowa
+
+Lab10 - Metoda bezpośrednie Eulera, pośrednia Eulera i trapezów dla równań różniczkowych zwyczajnych pierwszego rzędu
+
+Lab11 - Równanie różniczkowe cząstkowe - główny projekt, indywidualny dla każdego uczestnika przedmiotu
+
+Lab12 - Zjawisko Rungego w interpolacji wielomianowej Lagrange'a przy zastosowaniu bazy Newtona oraz węzłów Czybyszewa
+
+Lab13 - Numberyczne obliczanie całek, metodami: prostokątów(interpolacja po lewej/środku/prawej), trapezów oraz parabol
