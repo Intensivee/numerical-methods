@@ -1,0 +1,10 @@
+set xrange [-1.05 : 1.05]
+set yrange [-0.5: 1.5]
+set title 'Zjawisko Rungego (16 węzłów)'
+set ylabel 'y'
+set xlabel 'x'
+set grid
+plot \
+ "data.txt" using 1:2 with lines title "Analitycznie",\
+ "data.txt" using 1:3 with lines title "Równolegle",\
+ "data.txt" using 1:4 with points ps 1 lc rgb "red" title "Czybyszew";
